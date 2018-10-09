@@ -1,3 +1,16 @@
+# Ackerman Model
+
+Ackerman, D.J., Rousseau, J.P., Rattray, G.W., and **Fisher, J.C.**, 2010,
+Steady-state and transient models of groundwater flow and advective
+transport, Eastern Snake River Plain aquifer, Idaho National Laboratory and
+vicinity, Idaho:, U.S. Geological Survey Scientific Investigations Report
+2010-5123, 220 p., <https://pubs.usgs.gov/sir/2010/5123/>.
+
+## Data Sets
+
+- *actmodclp* is the polygon used to clip the active model cells from the model grid.
+- *inlmodext* is the extent of the active model grid.
+
 ## Shapefile to GeoJSON Conversion
 
 ```r
