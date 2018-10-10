@@ -15,8 +15,8 @@ vicinity, Idaho: U.S. Geological Survey Scientific Investigations Report
 
 ```r
 setwd("./shapefiles")
-actmodclp <- rgdal::readOGR(getwd(), "actmodclp", verbose = FALSE, integer64 = "allow.loss")
-inlmodext <- rgdal::readOGR(getwd(), "inlmodext", verbose = FALSE, integer64 = "allow.loss")
+actmodclp <- rgdal::readOGR(getwd(), "actmodclp")
+inlmodext <- rgdal::readOGR(getwd(), "inlmodext")
 actmodclp <- sp::spTransform(actmodclp, sp::CRS("+init=epsg:4326"))
 inlmodext <- sp::spTransform(inlmodext, sp::CRS("+init=epsg:4326"))
 setwd("..")
