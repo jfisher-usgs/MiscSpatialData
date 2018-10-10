@@ -14,7 +14,7 @@ vicinity, Idaho: U.S. Geological Survey Scientific Investigations Report
 ## Shapefile to GeoJSON Conversion
 
 ```r
-setwd("./MiscSpatialData/ackerman/shapefiles")
+setwd("./shapefiles")
 actmodclp <- rgdal::readOGR(getwd(), "actmodclp", verbose = FALSE, integer64 = "allow.loss")
 inlmodext <- rgdal::readOGR(getwd(), "inlmodext", verbose = FALSE, integer64 = "allow.loss")
 actmodclp <- sp::spTransform(actmodclp, sp::CRS("+init=epsg:4326"))
