@@ -9,7 +9,7 @@ vicinity, Idaho:, U.S. Geological Survey Scientific Investigations Report
 ## Data Sets
 
 - *actmodclp* is the polygon used to clip the active model cells from the model grid.
-- *inlmodext* is the extent of the active model grid.
+- *inlmodext* is the areal extent of the active model domain in layer 1.
 
 ## Shapefile to GeoJSON Conversion
 
